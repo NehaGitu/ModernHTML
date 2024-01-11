@@ -1,0 +1,89 @@
+1.List out the features of HTML5?
+
+
+1.Semantics: HTML5 introduced new elements like <header>, <footer>, <article>, <section>, <nav>, etc., which provide better structure and semantics to web documents.
+
+2.Multimedia: Native support for audio and video elements (<audio> and <video>), allowing embedding media without third-party plugins like Flash.
+
+3.Canvas: The <canvas> element provides a scripting API for drawing and manipulating graphics, animations, charts, and other visual elements dynamically.
+
+4.Geolocation: HTML5 allows websites to request a user's location through the Geolocation API, enabling location-based services.
+
+5.Storage: Local Storage (localStorage) and Session Storage (sessionStorage) provide improved ways to store data on the client-side, allowing larger amounts of data to be stored persistently.
+
+6.Web Workers: These enable concurrent script execution in the browser, allowing for multi-threaded processing and improving performance.
+
+7.Web Sockets: Facilitates full-duplex communication between the client and server, allowing for real-time data transfer.
+
+8.Offline Application Cache: The Application Cache (AppCache) allows web applications to work offline by caching resources, enabling users to access previously visited pages without an internet connection.
+
+9.Form Enhancements: HTML5 introduced new input types (<input type="email">, <input type="date">, etc.) and attributes that improve form handling and validation.
+
+10.Accessibility: New attributes and elements help in creating more accessible content, aiding assistive technologies for users with disabilities.
+
+11.Mobile Support: HTML5 includes features for better mobile support, like touch events, device orientation detection, and viewport control.
+
+12.Improved Performance: Overall, HTML5 provides better performance due to its ability to handle multimedia, improved parsing, and reduced need for external plugins.
+
+
+
+2.What are HTML entities? List out 5 commonly used HTML entities?
+
+HTML entities are special codes used to represent characters that have special meaning in HTML or characters that are difficult to include directly in a web page due to encoding issues. These entities start with an ampersand (&) and end with a semicolon (;).
+
+Here are five commonly used HTML entities:
+
+1] &lt; - Represents the less-than symbol (<). Used to display the less-than sign without interpreting it as the opening of an HTML tag.
+2] &gt; - Represents the greater-than symbol (>). Used to display the greater-than sign without interpreting it as the closing of an HTML tag.
+3] &amp; - Represents the ampersand (&). Used to display the ampersand without interpreting it as the beginning of an entity.
+4] &quot; - Represents the double quotation mark ("). Used to display double quotes without interpreting them as the beginning or end of an attribute value.
+5] &copy; - Represents the copyright symbol (©). Used to display the copyright symbol.
+
+
+3.Define accessibility in the context of web development.Discuss why it's essential to create accessible websites and how it benefits different user groups?
+
+Accessibility in web development refers to the practice of designing and developing websites and web applications in a way that ensures they are usable and accessible to people of all abilities, including those with disabilities. It involves creating digital content that can be easily navigated, understood, and interacted with by everyone, regardless of their physical or cognitive abilities.
+
+It's crucial to create accessible websites for several reasons:
+
+Inclusivity and Equality: Accessible websites ensure that everyone, including people with disabilities, can access information and participate in online activities. It promotes equal opportunities and inclusion for all users.
+
+Legal Compliance: Various countries have laws and regulations, such as the Americans with Disabilities Act (ADA) in the United States and the Web Content Accessibility Guidelines (WCAG), that require websites to be accessible. Non-compliance can lead to legal issues and penalties.
+
+Expanded Audience: Creating accessible websites broadens the potential audience. It not only benefits people with disabilities but also accommodates individuals using different devices, slow internet connections, or situational limitations (like using a device in bright sunlight).
+
+Improved User Experience: Accessible design often leads to better usability for all users. Clear navigation, well-structured content, and adaptable design elements contribute to a more user-friendly experience.
+
+Search Engine Optimization (SEO): Many accessibility practices, such as using descriptive alt text for images or creating semantic HTML, also contribute positively to SEO efforts, helping search engines understand and rank content better.
+
+Business Benefits: Accessible websites can positively impact a company's reputation and brand image. They can attract a wider customer base and improve customer satisfaction.
+
+Accessible websites benefit different user groups in various ways:
+
+Visual Impairments: Screen readers can interpret text, so providing descriptive alt text for images and ensuring proper semantic structure of content helps visually impaired users navigate and understand the content.
+
+Hearing Impairments: Providing captions or transcripts for audio and video content ensures that users with hearing impairments can access the information presented.
+
+Motor Disabilities: Keyboard navigation and ensuring that interactive elements are easily operable using a keyboard benefit users who cannot use a mouse due to motor disabilities.
+
+Cognitive Disabilities: Clear and simple language, consistent navigation, and well-organized content benefit users with cognitive disabilities by making information easier to comprehend.
+
+By focusing on accessibility, web developers can create more inclusive and user-friendly digital experiences, ultimately benefiting society as a whole by ensuring equitable access to information and services.
+
+
+4.List any three ways which helps in improving accssebility of HTML?
+
+1] Semantic HTML: Using semantic HTML elements appropriately can significantly enhance accessibility. Elements like <header>, <nav>, <main>, <footer>, <section>, <article>, etc., provide structure and context to content, aiding screen readers and other assistive technologies in understanding the document's layout and purpose.
+
+2] Alternative Text for Images: Adding descriptive and concise alternative text (alt attribute) to images is crucial. This text is read aloud by screen readers, providing context and information about the image for users who cannot see it. It's important to be informative without being overly verbose.
+
+3] Proper Form Labeling and Input Types: Associating labels with form elements (<label> and for attribute) and using appropriate input types (type attribute) can significantly improve accessibility. It helps screen readers identify form elements and understand their purpose.
+
+
+
+
+
+
+
+
+
